@@ -6,9 +6,7 @@
 #define USE_PIX_ON_ALL_ARCHITECTURES
 #endif
 
-#ifdef USE_PIX
 #include <pix3.h>
-#endif
 
 //Library Headers
 #define TRANSLATION_API
