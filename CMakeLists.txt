@@ -14,7 +14,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(DirectX-Headers)
 
-option(USE_PIX "Enable the use of PIX markers" ON)
+option(USE_PIX "Enable the use of PIX markers" OFF)
 
 add_subdirectory(src)
 
